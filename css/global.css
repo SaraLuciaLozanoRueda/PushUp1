@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --blanco: #F9f0f0;
+    --rosaO: #Ea6c80;
+    --rosaC: #fcb4b4;
+    --cafe: #ffd9be;
+}
+
+h3
+
+/*DESCUBRE EL MUNDO ARTE*/
+    {
+    font-size: 100px;
+    color: var(--blanco);
+    text-align: center;
+    margin-top: 200px;
+}
+
+body {
+    background-color: var(--cafe);
+}
+
+.P1_imagen {
+    /*IMAGEN */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://bretema.info/wp-content/uploads/2024/03/sisteas-de-diseno-coherente-900x500.webp);
+    opacity: 85%;
+    background-repeat: no-repeat;
+    height: 600px;
+    background-size: cover;
+}
+
+a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.menu {
+    display: none
+}
+
+nav {
+    margin-top: 50px;
+    margin-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.logo {
+    margin: 20px;
+    font-size: 50px;
+}
+
+.Galeria {
+    background-color: black;
+    width: 20%;
+    opacity: 90%;
+    height: 10%;
+    border: none;
+    border-radius: 20px;
+    color: var(--blanco);
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: bolder;
+}
+
+.P1_visita {
+    margin: 20px;
+    display: flex;
+    gap: 30%;
+}
+
+.visita {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+h6 {
+    font-size: 30px;
+    text-align: center;
+}
+
+#icon {
+    font-size: 50px;
+}
+
+h2 {
+    margin: 40px;
+    font-size: 100px;
+    text-align: center;
+}
+.P1_destacadas{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+@media (max-width:500px) {
+    .Galeria {
+        width: 50%;
+    }
+
+    h3 {
+        font-size: 70px;
+    }
+
+    a {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+        font-size: 40px;
+    }
+
+    a.logo {
+        display: block;
+        font-size: 25px;
+    }
+
+    .P1_destacadas {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .I1 {
+        height: 100%;
+        width: 100%;
+        border-radius: 50px;
+    }
+
+    h2 {
+        margin: 20px;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .P1_visita {
+        margin: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h6 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    #icon {
+        font-size: 30px;
+    }
+}
